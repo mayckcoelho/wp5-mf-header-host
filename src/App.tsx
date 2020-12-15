@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import Header from "./Header";
+
 import "./index.css";
 
-const App = () => <div>Olá, eu sou o React com Webpack 5.</div>;
+const App = () => (
+  <div>
+    <Header />
+    Estou na aplicação Header
+  </div>
+);
 
 ReactDOM.render(<App />, document.getElementById("app"));
