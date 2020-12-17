@@ -8,7 +8,7 @@ import "./index.css";
 const App = () => (
   <div>
     <Header />
-    Estou na aplicação Header
+    <h1>Olá, estou na aplicação Header</h1>
   </div>
 );
 
